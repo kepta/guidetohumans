@@ -1,7 +1,10 @@
 <html>
+    <head>
+    <link type="text/css" rel="stylesheet" href="stylesheets/main.css"/>
+    </head>
     <body>
     <?php
-if (array_key_exists('content', $_POST)) {
+    if (array_key_exists('content', $_POST)) {
        echo "You wrote:<pre>\n";
             echo htmlspecialchars($_POST['content']);
             echo "\n</pre>";
@@ -13,7 +16,7 @@ if (array_key_exists('content', $_POST)) {
             </textarea>
             </div>
             <div>
-            <input type="submit" value="Sign Guestbook"></div
+            <input type="submit" value="Siggn Guestbook"></div
         </form>
     </body>
 </html>

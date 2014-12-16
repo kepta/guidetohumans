@@ -1,0 +1,8 @@
+application: helloworld
+version: 1
+runtine: php
+api_version: 1
+
+handlers:
+- url: /.*
+  script:helloworld.php

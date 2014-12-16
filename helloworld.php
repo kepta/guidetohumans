@@ -16,7 +16,7 @@
             </textarea>
             </div>
             <div>
-            <input type="submit" value="Siggn Guestbook"></div
+            <input type="submit" value="Siggn PGuestbook"></div
         </form>
     </body>
 </html>
